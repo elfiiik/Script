@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace WpfApp1
 {
-    public class Gear
+    class Script_Multiply : ScriptInterface
     {
-        public string Name;
-        public int Value;
+        public void LoadVars()
+        {
+
+        }
     }
 }

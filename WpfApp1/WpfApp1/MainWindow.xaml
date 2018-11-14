@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="" HorizontalAlignment="Left" Margin="90,73,0,0" VerticalAlignment="Top" Width="127" Height="30" />
+        <Label Content="" HorizontalAlignment="Left" Margin="493,32,0,0" VerticalAlignment="Top" Width="149" x:Name="stat1"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="493,58,0,0" VerticalAlignment="Top" Width="149" x:Name="stat2"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="493,84,0,0" VerticalAlignment="Top" Width="149" x:Name="stat3"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="493,110,0,0" VerticalAlignment="Top" Width="149" Height="243" x:Name="invent"/>
+
     </Grid>
 </Window>

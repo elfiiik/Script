@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace WpfApp1
 {
-    public class Gear
+    interface ScriptInterface
     {
-        public string Name;
-        public int Value;
+        //void LoadVars();
     }
 }
