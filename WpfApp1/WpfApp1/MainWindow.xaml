@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="" HorizontalAlignment="Left" Margin="90,73,0,0" VerticalAlignment="Top" Width="127" Height="30" />
+        <Button Content="Add gear" HorizontalAlignment="Left" Margin="90,73,0,0" VerticalAlignment="Top" Width="127" Height="30" Click="Load_Script_1" />
+        <Button Content="Stats Up" HorizontalAlignment="Left" Margin="90,129,0,0" VerticalAlignment="Top" Width="127" Height="30" Click="Load_Script_2" />
         <Label Content="" HorizontalAlignment="Left" Margin="493,32,0,0" VerticalAlignment="Top" Width="149" x:Name="stat1"/>
         <Label Content="" HorizontalAlignment="Left" Margin="493,58,0,0" VerticalAlignment="Top" Width="149" x:Name="stat2"/>
         <Label Content="" HorizontalAlignment="Left" Margin="493,84,0,0" VerticalAlignment="Top" Width="149" x:Name="stat3"/>
-        <Label Content="" HorizontalAlignment="Left" Margin="493,110,0,0" VerticalAlignment="Top" Width="149" Height="243" x:Name="invent"/>
+        <ListBox HorizontalAlignment="Left" Height="181" Margin="592,129,0,0" VerticalAlignment="Top" Width="130" x:Name="invent"/>
 
     </Grid>
 </Window>

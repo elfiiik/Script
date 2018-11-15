@@ -164,8 +164,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Script-AddGear.cs" />
-    <Compile Include="Script-Multiply.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="ScriptHandler.cs" />
     <Compile Include="ScriptInterface.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -208,6 +208,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="scripts\AddGear.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="scripts\StatsUp.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

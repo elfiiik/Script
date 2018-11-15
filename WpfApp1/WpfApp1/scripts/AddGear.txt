@@ -1,0 +1,1 @@
+﻿Chara.Add_item("ScriptObj", 15);
